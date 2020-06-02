@@ -25,18 +25,6 @@
       </plugin>
     </plugins>
   </build>
-   <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://sqlab0001.eastus.cloudapp.azure.com:8081/repository/SAMPLE-REL/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://sqlab0001.eastus.cloudapp.azure.com:8081/repository/SAMPLE-SNAP/</url>
-        </snapshotRepository>
-    </distributionManagement>
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
